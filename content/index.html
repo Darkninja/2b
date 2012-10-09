@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	</head>
+	<body>
+		<video controls>
+			<source src="watch/big_buck_bunny.ogv" type="video/ogg">
+			<p>Your browser doesn't support HTML5 video. Please upgrade your browser</p>
+		</video><br>
+		<form method="post" action="download/big_buck_bunny.ogv">
+			<label for="format">Format: </label>
+			<select name="format" id="format">
+				<option value="ogv">Ogg Vorbis</option>
+				<option value="mp4">MP4</option>
+				<option value="3gp">3GP</option>
+				<option value="avi">AVI</option>
+				<option value="mov">MOV</option>
+				<option value="mpeg">MPEG</option>
+				<option value="webm">WEBM</option>
+			</select>
+			<input type="submit" name="submit" value="Download Video">
+		</form>
+	</body>
+</html>
